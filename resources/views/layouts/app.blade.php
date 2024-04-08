@@ -16,6 +16,7 @@
 
     @include('partials/header')
 
+    @include('partials/cardItem')
 
 
 </body>

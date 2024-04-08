@@ -64,7 +64,8 @@
         </nav>
     </div>
 
-    <div class="header-img" style="height: 20px">
+    <div class="header-img">
         <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
     </div>
+
 </header>
