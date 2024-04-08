@@ -1,1 +1,12 @@
+@use './partials/variables' as *;
+
+
+
+@import './partials/header';
+
 @import "~bootstrap/scss/bootstrap";
+
+body{
+    padding: 0;
+    margin: 0;
+}
