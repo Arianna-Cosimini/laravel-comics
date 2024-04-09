@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-white">
+        <nav class="navbar navbar-expand-lg bg-white align-items-center">
             <div class="container-fluid">
     
                 <img class="navbar-brand" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">

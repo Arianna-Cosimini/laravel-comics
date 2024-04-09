@@ -1,0 +1,51 @@
+#icons {
+    background-color: $primary;
+    position: relative;
+    z-index: 1;
+}
+
+.content-icons {
+
+    padding: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-right: 50px;
+
+}
+
+
+
+.icon-cards {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 5);
+
+
+
+    .content-icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+
+        height: 55px;
+
+
+
+        img {
+            height: 55px;
+            width: 100%;
+        }
+
+
+        .text-icon {
+            text-transform: uppercase;
+            color: white;
+            font-size: 12px;
+        }
+    }
+}

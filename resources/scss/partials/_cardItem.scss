@@ -1,4 +1,4 @@
-button{
+button {
     transform: translatey(-50%);
 
     padding: 8px 16px;
@@ -10,7 +10,37 @@ button{
     border: 0;
 }
 
-#card-item{
-    height: 350px;
+#card-item {
     background-color: 1c1c1c;
+
+
+}
+
+
+#container-cards {
+    gap: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: calc(100% / 6 - 20px);
+    padding: 20px 0;
+
+    color: white;
+
+    .content-card {
+        align-items: center;
+
+        img {
+            max-height: 185px;
+            object-fit: cover;
+            width: 200px;
+        }
+    }
+
+
 }

@@ -18,6 +18,8 @@
 
     @include('partials/cardItem')
 
+    @include('partials/icons')
+
 
 </body>
 
