@@ -3,7 +3,7 @@
         <nav class="navbar navbar-expand-lg bg-white align-items-center">
             <div class="container-fluid">
     
-                <img class="navbar-brand" src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="">
+                <img class="navbar-brand" src="{{ asset('img/dc-logo.png') }}" alt="">
     
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +65,7 @@
     </div>
 
     <div class="header-img">
-        <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
+        <img src="{{ asset('img/jumbotron.jpg') }}" alt="">
     </div>
 
 </header>

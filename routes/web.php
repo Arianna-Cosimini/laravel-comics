@@ -16,8 +16,12 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $cards = config("db.cards");
+    $links = config("db.linkList");
+    $socials = config("db.socials");
 
     // dd($cards);
+    // dd($links);
+    // dd($socials);
 
-    return view('home', compact('cards'));
+    return view('home', compact('cards','links','socials'));
 })->name('home');

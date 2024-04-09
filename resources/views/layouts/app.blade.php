@@ -17,9 +17,12 @@
     @include('partials/header')
 
     @include('partials/cardItem')
-
+    
     @include('partials/icons')
-
+    
+    
+    
+    @include('partials/footer')
 
 </body>
 
